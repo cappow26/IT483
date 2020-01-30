@@ -1,0 +1,45 @@
+head {
+    font-family: sans-serif;
+}
+
+
+
+body {
+    font-family: sans-serif;
+}
+
+h2::first-letter {
+     font-size:200%;
+}
+
+img {
+    float: left;
+}
+
+h1 {
+    text-indent: 30px;
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+    font-size:100%
+}
+
+h3 {
+    text-indent: 30px;
+    font-size: 100%
+}
+
+a {
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover {
+    color: green;
+}
+
+li {
+    margin: 0 0 10px 0;
+}
+
+
