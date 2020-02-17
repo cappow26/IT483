@@ -1,0 +1,157 @@
+body {
+    font-family: sans-serif;
+    width: 800px;
+    border: 5px solid black;
+    box-shadow: 0 5px 10px 5px black;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    padding: 15px;
+    background-image: linear-gradient(45deg, white, orange 75%, black);
+    background-image: -webkit-linear-gradient(45deg, white, orange 75%, black);
+    background-image: -moz-linear-gradient(45deg, white, orange 75%, black);
+    background-image: -o-linear-gradient(45deg, white, orange 75%, black);
+    margin: 0;
+}
+
+header * {
+    margin: 0;
+}
+
+.top_navigation {
+    background-color: black;
+    color: white;
+}
+
+.top_navigation ul {
+    padding: 0;
+}
+
+.top_navigation ul li a {
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    width: calc(800px / 5);
+}
+
+.top_navigation a,
+.top_navigation a:active,
+.top_navigation a:visited {
+    text-decoration: none;
+    color: inherit;
+    font-weight: unset;
+}
+
+.top_navigation ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    background-color: black;
+}
+
+.top_navigation ul li {
+    float: left;
+    height: 100%;
+}
+
+.top_navigation ul li a:hover,
+.top_navigation ul li a:focus {
+    background-color: gray;
+}
+
+.top_navigation ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.top_navigation ul ul li {
+    float: none;
+}
+
+.top_navigation ul li:hover > ul,
+.top_navigation ul li:focus > ul {
+    display: block;
+}
+
+.top_navigation ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+footer {
+    font-size: 0.75rem;
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 15px;
+    background-image: linear-gradient(45deg, black, orange 75%, white);
+    background-image: -webkit-linear-gradient(45deg, black, orange 75%, white);
+    background-image: -moz-linear-gradient(45deg, black, orange 75%, white);
+    background-image: -o-linear-gradient(45deg, black, orange 75%, white);
+    clear: both;
+}
+
+footer * {
+    margin: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.useable {
+    color: orange!important;
+}
+
+html {
+    background: url("../bats.gif") repeat;
+}
+
+
+.title {
+    font-size: 3rem;
+}
+
+main {
+    padding-right: 20px;
+}
+
+.sidebar {
+    width: 160px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0 20px 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    border: solid black 2px;
+}
+
+a, a:active, a:visited {
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover, a:active {
+    color: green;
+}
