@@ -1,0 +1,162 @@
+html {
+    background-color: red;
+}
+
+header {
+    margin-bottom: 15px;
+    padding: 25px;
+    background-color: aliceblue;
+    padding-left: 100px;
+}
+
+.container {
+    background-color: white
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    width: 95%;
+    border: 1px solid #000;
+}
+
+.container2 {
+    background-color: darkblue;
+}
+
+.container2 {
+    margin:auto;
+    max-width: 1200px;
+    width: 100%;
+    border: 2px solid #000;
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.col-25 {
+    width: 25%;
+}
+.col-50 {
+    width: 50%;
+}
+.col-75 {
+    width: 75%;
+}
+.col-100 {
+    width: 100%;
+}
+
+.standard-margin {
+    margin: 0 25px;
+}
+
+footer {
+    margin: 15px 25px 0;
+}
+
+h4 {
+    background: White;
+}
+
+h2 {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+li {
+    
+    color: blue;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    width: 160px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0 20px 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: darkgrey;
+    color: black;
+    text-decoration: none;
+    border: solid black 2px;
+}
+
+.title {
+    font-size: 3rem;
+    color: blue;
+    text-align: center;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.name {
+    color: black;
+    background-color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 15px;
+    clear: both;
+}
+
+footer * {
+    margin: 0;
+}
+
+
+
+main {
+    padding-right: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+p{
+    font-size: 1.25em;
+    padding: 15px;
+}
+
+td{
+    text-align: center;
+}
+
+li {
+    font-size: 1.25em;
+    color: crimson;
+    text-decoration: underline;
+}
